@@ -1,5 +1,5 @@
 {
-  "name": "ScaleChat",
+  "name": "scalechat",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -19,5 +19,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "server": "^1.0.0",
+    "workspace": "^0.0.1-preview.1"
+  }
 }
